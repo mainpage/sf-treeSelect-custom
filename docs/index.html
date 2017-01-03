@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link href="http://nec.netease.com/download/framework/reset.css" rel="stylesheet">
+	<style type="text/css">
+		body{
+			font-family: "Microsoft YaHei"
+		}
+		#app {
+			margin: 30px auto;
+			padding: 30px 50px;
+			width: 700px;
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<sf-tree-select @change="onChange" :options="options" :disabled="disabled" ref="sel">
+		</sf-tree-select>
+		<sf-tree-select @change="onChange" :options="options" :disabled="true" ref="sel">
+		</sf-tree-select>
+		<sf-tree-select @toggle="onToggle" @change="onChange" :options="options" :disabled="disabled" ref="sel" inline-template>
+			<span>{{option.id}}-{{option.name}}</span>
+			<i class="u-icon-down"></i>
+		</sf-tree-select>
+		<button @click="toggle">toggle</button>
+		<button @click="changeSelect(options[0])">change</button>
+	</div>
+	<script src="https://unpkg.com/vue@2.0.1/dist/vue.js"></script>
+	<script src="./sfTreeSelect.js"></script>
+	<script>
+		var App = Vue.extend({
+			data : function(){
+				return {
+					options:[
+						{id: 1, name: 'success', disabled: true, children: [{id: 3, name:'pending'}]},
+						{id: 2, name: 'error'}
+					],
+					defid: 2,
+					disabled: false
+				}
+			},
+			props : {
+				
+			},
+			components : {
+				'sf-tree-select': sfTreeSelect
+ 			},
+			methods : {
+				onToggle: function(event){
+					console.log(event.show);
+				},
+				onChange: function(option){
+					
+				},
+				toggle(){
+					this.$refs.sel.toggle();
+				},
+				changeSelect(option) {
+					this.$refs.sel.select(option);
+				}
+			}
+		});
+
+		new App().$mount('#app');
+	</script>
+</body>
+</html>
