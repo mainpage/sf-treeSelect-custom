@@ -64,19 +64,19 @@ var sfTreeSelect =
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\work\\NSFI\\sf-treeSelect\\src\\treeSelect.vue"
-	__vue_options__._scopeId = "data-v-3fa6a3aa"
+	__vue_options__.__file = "D:\\work\\NSFI\\新建文件夹\\sf-treeSelect-custom\\src\\treeSelect.vue"
+	__vue_options__._scopeId = "data-v-124c07f2"
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-hot-reload-api")
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3fa6a3aa", __vue_options__)
+	    hotAPI.createRecord("data-v-124c07f2", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-3fa6a3aa", __vue_options__)
+	    hotAPI.reload("data-v-124c07f2", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] treeSelect.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -100,8 +100,8 @@ var sfTreeSelect =
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-3fa6a3aa&scoped=true!./../node_modules/sass-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-3fa6a3aa&scoped=true!./../node_modules/sass-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue");
+			module.hot.accept("!!./../node_modules/.0.22.0@css-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/style-rewriter.js?id=data-v-124c07f2&scoped=true!./../node_modules/.4.1.1@sass-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue", function() {
+				var newContent = require("!!./../node_modules/.0.22.0@css-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/style-rewriter.js?id=data-v-124c07f2&scoped=true!./../node_modules/.4.1.1@sass-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -119,7 +119,7 @@ var sfTreeSelect =
 
 
 	// module
-	exports.push([module.id, "\n.m-select[data-v-3fa6a3aa] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n}\n.m-select .select-sel[data-v-3fa6a3aa] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-3fa6a3aa] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-3fa6a3aa] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-3fa6a3aa] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .u-icon-down[data-v-3fa6a3aa] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(/docs/res/img/icon-12.png);\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
+	exports.push([module.id, "\n.m-select[data-v-124c07f2] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n}\n.m-select .select-sel[data-v-124c07f2] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-124c07f2] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-124c07f2] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-124c07f2] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .u-icon-down[data-v-124c07f2] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(/docs/res/img/icon-12.png);\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
 
 	// exports
 
@@ -494,6 +494,7 @@ var sfTreeSelect =
 			//重写render函数
 			var customRender = this.$options.render;
 			this.$options.render = function (h) {
+				//h相当于$createElement
 				/*let hasInlineTemplate = !!this._self.$vnode.data.inlineTemplate;*/
 				var newRender = function newRender(_h) {
 					return h(
@@ -651,19 +652,19 @@ var sfTreeSelect =
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\work\\NSFI\\sf-treeSelect\\src\\treeList.vue"
-	__vue_options__._scopeId = "data-v-a0d87ae6"
+	__vue_options__.__file = "D:\\work\\NSFI\\新建文件夹\\sf-treeSelect-custom\\src\\treeList.vue"
+	__vue_options__._scopeId = "data-v-5c9a512e"
 
 	/* hot reload */
 	if (false) {(function () {
-	  var hotAPI = require("vue-hot-reload-api")
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-a0d87ae6", __vue_options__)
+	    hotAPI.createRecord("data-v-5c9a512e", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-a0d87ae6", __vue_options__)
+	    hotAPI.reload("data-v-5c9a512e", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] treeList.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -687,8 +688,8 @@ var sfTreeSelect =
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-a0d87ae6&scoped=true!./../node_modules/sass-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-a0d87ae6&scoped=true!./../node_modules/sass-loader/index.js!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue");
+			module.hot.accept("!!./../node_modules/.0.22.0@css-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/style-rewriter.js?id=data-v-5c9a512e&scoped=true!./../node_modules/.4.1.1@sass-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue", function() {
+				var newContent = require("!!./../node_modules/.0.22.0@css-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/style-rewriter.js?id=data-v-5c9a512e&scoped=true!./../node_modules/.4.1.1@sass-loader/index.js!./../node_modules/.9.9.5@vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -706,7 +707,7 @@ var sfTreeSelect =
 
 
 	// module
-	exports.push([module.id, "\n.list[data-v-a0d87ae6] {\n  position: relative;\n  max-height: 300px;\n  overflow: hidden;\n  background-color: #fff;\n}\n.itm[data-v-a0d87ae6] {\n  height: 48px;\n  padding: 10px 10px;\n  box-sizing: border-box;\n  overflow: hidden;\n  word-wrap: normal;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.itm .txt[data-v-a0d87ae6] {\n    display: inline-block;\n}\n.itm .u-icon-tickblue[data-v-a0d87ae6] {\n    display: none;\n    width: 14px;\n    height: 14px;\n    margin-left: 5px;\n    background: url(/docs/res/img/icon-14.png);\n    background-size: 120px auto;\n    background-position: 0 -570px;\n}\n.itm.active > .u-icon-tickblue[data-v-a0d87ae6] {\n    display: inline-block;\n}\n.itm.disabled[data-v-a0d87ae6] {\n    color: #999;\n    background: #eee;\n    cursor: not-allowed;\n}\n", ""]);
+	exports.push([module.id, "\n.list[data-v-5c9a512e] {\n  position: relative;\n  max-height: 300px;\n  overflow: hidden;\n}\n.itm[data-v-5c9a512e] {\n  padding: 8px 10px;\n  box-sizing: border-box;\n  overflow: hidden;\n  word-wrap: normal;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.itm .txt[data-v-5c9a512e] {\n    display: inline-block;\n    vertical-align: middle;\n}\n.itm .u-icon-tickblue[data-v-5c9a512e] {\n    display: none;\n    width: 14px;\n    height: 14px;\n    margin-left: 5px;\n    vertical-align: middle;\n    background: url(/docs/res/img/icon-14.png);\n    background-size: 120px auto;\n    background-position: 0 -570px;\n}\n.itm.active > .u-icon-tickblue[data-v-5c9a512e] {\n    display: inline-block;\n}\n.itm.disabled[data-v-5c9a512e] {\n    color: #999;\n    background: #eee;\n    cursor: not-allowed;\n}\n", ""]);
 
 	// exports
 

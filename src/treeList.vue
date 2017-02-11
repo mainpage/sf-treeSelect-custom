@@ -14,11 +14,9 @@
 		position: relative;
 		max-height: 300px;
 		overflow: hidden;
-		background-color: #fff;
 	}
 	.itm{
-		height: 48px;
-		padding: 10px 10px;
+		padding: 8px 10px;
 		box-sizing: border-box;
 		overflow: hidden;
 		word-wrap: normal;
@@ -26,12 +24,14 @@
 		text-overflow: ellipsis;
 		.txt{
 			display: inline-block;
+			vertical-align: middle;
 		}
 		.u-icon-tickblue{
 			display: none;
 			width: 14px;
 			height: 14px;
 			margin-left: 5px;
+			vertical-align: middle;
 			background: url(/docs/res/img/icon-14.png);
 			background-size: 120px auto;
 			background-position: 0 -570px;
